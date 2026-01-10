@@ -11,13 +11,12 @@ return new class extends Migration
         Schema::create('products', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->tinyInteger('category_id')->default(255)->unsigned();
-            $table->tinyInteger('brand_id')->default(255)->unsigned();
+//            $table->foreignId('category_id')->default(255)->constrained();
+//            $table->foreignId('brand_id')->default(255)->constrained();
             $table->string('description')->nullable();
-            $table->float('price')->default(0);
+            $table->float('price');
             $table->tinyInteger('quantity')->default(0);
             $table->string('image_path')->nullable();
-            $table->string('slug')->nullable();
             $table->timestamps();
         });
     }
