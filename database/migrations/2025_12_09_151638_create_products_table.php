@@ -11,7 +11,7 @@ return new class extends Migration
         Schema::create('products', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-//            $table->foreignId('category_id')->default(255)->constrained();
+            $table->foreignId('category_id')->default(255)->constrained();
 //            $table->foreignId('brand_id')->default(255)->constrained();
             $table->string('description')->nullable();
             $table->float('price');

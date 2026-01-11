@@ -3,12 +3,15 @@
 namespace App\Http\Controllers;
 
 use App\Services\CatalogService;
+use App\Services\CategoryService;
 use Illuminate\Http\Request;
 
 class ProductController extends Controller
 {
-    function __construct(private CatalogService $service){
-    }
+    function __construct(
+        private CatalogService  $catalogService,
+        private CategoryService $categoryService
+    ){}
     public function index(Request $request)
     {
         $filters = [
@@ -16,10 +19,13 @@ class ProductController extends Controller
             'max_price' => $request->input('max_price'),
             'search' => $request->input('search'),
             'sort' => $request->input('sort'),
+            'categories' => $request->input('categories'),
         ];
 
         return view('products', [
-            'products' => $this->service->getProducts(4, $filters)
+            'products' => $this->catalogService->getProducts(4, $filters),
+            'categories' => $this->categoryService->getCategories(),
+            'filters' => $filters,
         ]);
     }
 }
