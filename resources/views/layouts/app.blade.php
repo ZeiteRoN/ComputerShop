@@ -5,15 +5,16 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    @vite('resources/css/app.css')
-    <title>Register</title>
+    <title>Document</title>
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body>
-<form action="/register">
-    <h1>Enter your data</h1>
-    <input type="text" placeholder="Username">
-    <input type="text" placeholder="Password">
-    <input type="text" placeholder="Email">
-</form>
+@include('partials.header')
+
+<main class="container mx-auto p-4">
+    @yield('content')
+</main>
+
+@include('partials.footer')
 </body>
 </html>

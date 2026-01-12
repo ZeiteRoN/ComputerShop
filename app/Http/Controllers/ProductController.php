@@ -22,7 +22,7 @@ class ProductController extends Controller
             'categories' => $request->input('categories'),
         ];
 
-        return view('products', [
+        return view('content.products', [
             'products' => $this->catalogService->getProducts(4, $filters),
             'categories' => $this->categoryService->getCategories(),
             'filters' => $filters,

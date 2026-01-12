@@ -1,4 +1,4 @@
-<div class="flex w-40 h-20 border rounded-xl p-4 shadow">
+<div class="flex w-24 h-10 border rounded-xl p-4 shadow">
     <div class="text-sm text-gray-500">
         {{ $key }}
     </div>
