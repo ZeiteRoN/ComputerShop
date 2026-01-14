@@ -1,5 +1,5 @@
-<div class="flex w-24 h-10 border rounded-xl p-4 shadow">
-    <div class="text-sm text-gray-500">
+<div class="flex border rounded-xl p-4 shadow">
+    <div class="text-xs text-gray-500">
         {{ $key }}
     </div>
 
@@ -9,5 +9,8 @@
         @else
             {{ $value }}
         @endif
+    </div>
+    <div>
+        <button><img src="{{asset('images/icons/cancel.png')}}" alt="" class="size-8 cursor-pointer hover:scale-105 transition"></button>
     </div>
 </div>

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Product;
 use App\Services\CatalogService;
 use App\Services\CategoryService;
 use Illuminate\Http\Request;
@@ -22,10 +23,15 @@ class ProductController extends Controller
             'categories' => $request->input('categories'),
         ];
 
-        return view('content.products', [
+        return view('content.products.products', [
             'products' => $this->catalogService->getProducts(4, $filters),
             'categories' => $this->categoryService->getCategories(),
             'filters' => $filters,
         ]);
+    }
+
+    public function show(Product $product)
+    {
+        return view('content.products.show', compact('product'));
     }
 }
