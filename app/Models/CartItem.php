@@ -1,21 +1,21 @@
 <?php
 
-namespace App\Models;
+    namespace App\Models;
 
-use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\Relations\BelongsTo;
-class CartItem extends Model
-{
-    use HasFactory;
-
-    public function cart():BelongsTo
+    use Illuminate\Database\Eloquent\Factories\HasFactory;
+    use Illuminate\Database\Eloquent\Model;
+    use Illuminate\Database\Eloquent\Relations\BelongsTo;
+    class CartItem extends Model
     {
-        return $this->belongsTo(Cart::class);
-    }
+        use HasFactory;
 
-    public function product():belongsTo
-    {
-        return $this->belongsTo(Product::class);
+        public function cart():BelongsTo
+        {
+            return $this->belongsTo(Cart::class);
+        }
+
+        public function product():BelongsTo
+        {
+            return $this->belongsTo(Product::class);
+        }
     }
-}

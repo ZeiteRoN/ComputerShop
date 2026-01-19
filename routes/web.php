@@ -24,6 +24,7 @@ Route::get('/products', [ProductController::class, 'index'])->name('products.ind
 Route::get('/products/{product}', [ProductController::class, 'show'])->name('products.show');
 Route::view('/catalog', 'content.catalog')->name('catalog');
 Route::view('/about', 'content.about')->name('about');
+Route::middleware('auth')->get('/cart', [CartController::class, 'showCart'])->name('cart.show');
 
 Route::post('/cart/add/{product}', [CartController::class, 'addProduct'])->name('cart.addProduct');
 
