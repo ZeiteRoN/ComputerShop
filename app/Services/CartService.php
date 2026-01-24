@@ -8,7 +8,6 @@ use App\Models\Product;
 use App\Models\User;
 use App\Repositories\CartItemRepository;
 use App\Repositories\CartRepository;
-use Illuminate\Support\Collection;
 
 class CartService
 {

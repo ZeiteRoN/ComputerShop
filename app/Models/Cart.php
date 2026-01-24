@@ -13,6 +13,8 @@ class Cart extends Model
 
     protected $table = 'carts';
 
+    protected $fillable = ['user_id'];
+
     public function user(): BelongsTo
     {
         return $this->belongsTo(User::class);

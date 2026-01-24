@@ -1,4 +1,4 @@
-<div class="flex w-full h-16 bg-blue-500 to-blue-400 justify-between items-center px-8 sticky top-0 shadow">
+<div class="flex w-full h-16 bg-blue-300 justify-between items-center px-8 sticky top-0 shadow">
         <h1 class="text-2xl font-bold tracking-wide">COMPSHOP</h1>
         <div class="flex text-2xl text-white gap-8">
             <a href="/products" class="{{request()->is('products*') ? "text-white": "text-white/80"}} hover:scale-105 transition">Home</a>

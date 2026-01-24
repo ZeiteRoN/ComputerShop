@@ -1,17 +1,16 @@
 @extends('layouts.app')
 
 @section('content')
-    <div>
+    <div class="flex flex-col gap-2">
         @if(!$cart || $cart->items->isEmpty())
             <p>Кошик порожній</p>
         @else
             @foreach($cart->items as $item)
-                <h1>{{ $item->product->name }}</h1>
-                <p>Ціна: {{ $item->product->price }}</p>
-                <p>Кількість: {{ $item->quantity }}</p>
-                <p>Сума: {{ $item->product->price * $item->quantity }}</p>
+                @include('components.cart-item-card', $item)
             @endforeach
-            <h2>Загальна ціна: {{ $cartService->getCartTotalPrice($cart) }}</h2>
         @endif
+        <div>
+            <h1>Total: {{$totalPrice}}</h1>
+        </div>
     </div>
 @endsection

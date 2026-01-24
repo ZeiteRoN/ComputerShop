@@ -18,13 +18,15 @@ class CartController extends Controller
     {
         $user = Auth::user();
 
-        dd($user, $product);
+        $this->cartService->addProductToCart($user, $product);
+        return redirect('cart');
     }
 
     public function showCart()
     {
         $user = Auth::user();
         $cart = $this->cartService->getUserCart($user);
-        return view('content.cart.show', compact('cart'));
+        $totalPrice = $this->cartService->getCartTotalPrice($cart);
+        return view('content.cart.show', compact('cart', 'totalPrice'));
     }
 }
