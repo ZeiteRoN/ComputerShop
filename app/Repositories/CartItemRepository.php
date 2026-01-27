@@ -19,6 +19,7 @@ class CartItemRepository
         $cartItem->cart_id = $cart->id;
         $cartItem->product_id = $product->id;
         $cartItem->quantity = 1;
+        $cartItem->price = $product->price;
         $cartItem->save();
         return $cartItem;
     }
@@ -27,6 +28,18 @@ class CartItemRepository
     {
         $cartItem->quantity = $cartItem->quantity + 1;
         $cartItem->save();
+        return $cartItem;
+    }
+
+    public function decreaseQuantity(CartItem $cartItem): CartItem
+    {
+        if ($cartItem->quantity == 1){
+            $cartItem->delete();
+        }
+        else {
+            $cartItem->quantity = $cartItem->quantity - 1;
+            $cartItem->save();
+        }
         return $cartItem;
     }
 }

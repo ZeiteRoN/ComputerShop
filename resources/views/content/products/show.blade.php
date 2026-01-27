@@ -7,7 +7,7 @@
             <h1 class="text-4xl bold">{{$product->name}}</h1>
         </div>
         <div id="cart">
-            <form action="{{route('cart.addProduct', [$product])}}" method="POST">
+            <form action="{{route('cart.product.add', [$product])}}" method="POST">
                 <button type="submit" class="bg-blue-500 rounded-xl">Add to cart</button>
                 @csrf
             </form>

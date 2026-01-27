@@ -24,9 +24,13 @@ Route::get('/products', [ProductController::class, 'index'])->name('products.ind
 Route::get('/products/{product}', [ProductController::class, 'show'])->name('products.show');
 Route::view('/catalog', 'content.catalog')->name('catalog');
 Route::view('/about', 'content.about')->name('about');
-Route::middleware('auth')->get('/cart', [CartController::class, 'showCart'])->name('cart.show');
 
-Route::post('/cart/add/{product}', [CartController::class, 'addProduct'])->name('cart.addProduct');
+Route::middleware('auth')->group(function () {
+    Route::get('/cart', [CartController::class, 'showCart'])->name('cart.show');
+    Route::post('/cart/add/{product}', [CartController::class, 'addProduct'])->name('cart.product.add');
+    Route::post('/cart/item/{cartItem}/increase', [CartController::class, 'increaseCartItem'])->name('cart.item.increase');
+    Route::post('/cart/item/{cartItem}/decrease', [CartController::class, 'decreaseCartItem'])->name('cart.item.decrease');
+});
 
 Route::get('/dashboard', function () {
     return view('dashboard');

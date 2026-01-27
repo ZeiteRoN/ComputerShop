@@ -2,9 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Cart;
+use App\Models\CartItem;
 use App\Models\Product;
-use App\Models\User;
 use App\Services\CartService;
 use Illuminate\Support\Facades\Auth;
 
@@ -25,8 +24,21 @@ class CartController extends Controller
     public function showCart()
     {
         $user = Auth::user();
-        $cart = $this->cartService->getUserCart($user);
+        $cart = $this->cartService->getOrCreateUserCart($user);
         $totalPrice = $this->cartService->getCartTotalPrice($cart);
         return view('content.cart.show', compact('cart', 'totalPrice'));
+    }
+
+    public function increaseCartItem(CartItem $cartItem)
+
+    {
+        $this->cartService->increaseQuantity($cartItem);
+        return redirect('cart');
+    }
+
+    public function decreaseCartItem(CartItem $cartItem)
+    {
+        $this->cartService->decreaseQuantity($cartItem);
+        return redirect('cart');
     }
 }

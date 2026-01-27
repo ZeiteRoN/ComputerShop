@@ -32,9 +32,14 @@ class CartService
         return $cartItem;
     }
 
-    public function getUserCart(User $user): ?Cart
+    public function getOrCreateUserCart(User $user): ?Cart
     {
-        return $this->cartRepository->getCartByUser($user);
+        if(!$this->cartRepository->getCartByUser($user)) {
+            return$this->cartRepository->createUserCart($user);
+        }
+        else {
+            return $this->cartRepository->getCartByUser($user);
+        }
     }
 
     public function getCartWithItems(User $user): Cart
@@ -55,5 +60,14 @@ class CartService
             $totalPrice += $item->product->price * $item->quantity;
         }
         return $totalPrice;
+    }
+
+    public function increaseQuantity(CartItem $cartItem): void
+    {
+        $this->cartItemRepository->increaseQuantity($cartItem);
+    }
+    public function decreaseQuantity(CartItem $cartItem): void
+    {
+        $this->cartItemRepository->decreaseQuantity($cartItem);
     }
 }
