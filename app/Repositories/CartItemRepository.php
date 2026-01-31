@@ -42,4 +42,9 @@ class CartItemRepository
         }
         return $cartItem;
     }
+
+    public function removeCartItem(CartItem $cartItem): void
+    {
+        $cartItem->delete();
+    }
 }

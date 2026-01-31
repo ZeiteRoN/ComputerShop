@@ -35,7 +35,7 @@ class CartService
     public function getOrCreateUserCart(User $user): ?Cart
     {
         if(!$this->cartRepository->getCartByUser($user)) {
-            return$this->cartRepository->createUserCart($user);
+            return $this->cartRepository->createUserCart($user);
         }
         else {
             return $this->cartRepository->getCartByUser($user);
@@ -69,5 +69,10 @@ class CartService
     public function decreaseQuantity(CartItem $cartItem): void
     {
         $this->cartItemRepository->decreaseQuantity($cartItem);
+    }
+
+    public function removeCartItem(CartItem $cartItem): void
+    {
+        $this->cartItemRepository->removeCartItem($cartItem);
     }
 }

@@ -1,4 +1,4 @@
-@extends('layouts.app-nav')
+@extends('layouts.app')
 
 @section('content')
     <h1>Catalog</h1>

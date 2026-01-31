@@ -10,13 +10,22 @@
             <option value="name_asc" @selected(request('sort') == 'name_asc')>Name A-Z</option>
             <option value="name_desc" @selected(request('sort') == 'name_desc')>Name Z-A</option>
         </select>
-        <div class="flex flex-wrap gap-2">
-            <input type="checkbox" name="categories[]" value="1" @checked(in_array(1, request('categories', [])))>
-            <input type="checkbox" name="categories[]" value="2" @checked(in_array(2, request('categories', [])))>
-            <input type="checkbox" name="categories[]" value="3" @checked(in_array(3, request('categories', [])))>
+        <div class="flex flex-col gap-2">
+            <h3 class="font-semibold">Категорії:</h3>
+            <div class="flex flex-wrap gap-2">
+                @foreach($categories as $categoryId => $categoryName)
+                    @if($categoryId != 99)
+                        <div class="flex items-center gap-1">
+                            <input type="checkbox" id="cat-{{$categoryId}}" name="categories[]"
+                                   value="{{$categoryId}}" @checked(in_array($categoryId, request('categories', [])))>
+                            <label for="cat-{{$categoryId}}" class="text-xs cursor-pointer">{{$categoryName}}</label>
+                        </div>
+                    @endif
+                @endforeach
+            </div>
         </div>
         <button type="submit" class="bg-blue-500 rounded-3xl">Add filter</button>
         <a href="/products" class="bg-red-300 rounded-3xl text-center py-1">
             Reset
-        </a>    </form>
+        </a></form>
 </div>

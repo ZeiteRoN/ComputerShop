@@ -5,13 +5,13 @@ namespace App\Http\Controllers;
 use App\Models\Product;
 use App\Services\CatalogService;
 use App\Services\CategoryService;
+use App\Constants\Categories;
 use Illuminate\Http\Request;
 
 class ProductController extends Controller
 {
     function __construct(
         private CatalogService  $catalogService,
-        private CategoryService $categoryService
     ){}
     public function index(Request $request)
     {
@@ -25,7 +25,7 @@ class ProductController extends Controller
 
         return view('content.products.products', [
             'products' => $this->catalogService->getProducts(4, $filters),
-            'categories' => $this->categoryService->getCategories(),
+            'categories' => Categories::WITH_TEXT,
             'filters' => $filters,
         ]);
     }

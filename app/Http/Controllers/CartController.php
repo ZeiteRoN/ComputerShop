@@ -41,4 +41,10 @@ class CartController extends Controller
         $this->cartService->decreaseQuantity($cartItem);
         return redirect('cart');
     }
+
+    public function removeCartItem(CartItem $cartItem)
+    {
+        $this->cartService->removeCartItem($cartItem);
+        return redirect('cart');
+    }
 }
