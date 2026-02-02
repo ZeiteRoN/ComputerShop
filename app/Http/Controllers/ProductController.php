@@ -24,7 +24,7 @@ class ProductController extends Controller
         ];
 
         return view('content.products.products', [
-            'products' => $this->catalogService->getProducts(4, $filters),
+            'products' => $this->catalogService->getProducts(15, $filters),
             'categories' => Categories::WITH_TEXT,
             'filters' => $filters,
         ]);
@@ -32,6 +32,8 @@ class ProductController extends Controller
 
     public function show(Product $product)
     {
-        return view('content.products.show', compact('product'));
+        $familiarProducts = $this->catalogService->getFamiliarProductsByCategory($product);
+        $productDetails = $this->catalogService->getProductDetails($product);
+        return view('content.products.show', compact('product', 'familiarProducts', 'productDetails'));
     }
 }

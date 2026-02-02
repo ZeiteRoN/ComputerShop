@@ -7,7 +7,7 @@ use Illuminate\Pagination\LengthAwarePaginator;
 
 class ProductRepository
 {
-    public function paginate(int $perPage = 4, array $filters):LengthAwarePaginator
+    public function paginate(int $perPage = 12, array $filters):LengthAwarePaginator
     {
         return Product::query()
             ->when($filters['search'] ?? null, function ($query, $search) {
@@ -32,5 +32,14 @@ class ProductRepository
             })
             ->paginate($perPage)
             ->withQueryString();
+    }
+
+    public function getFamiliarProductsByCategory(Product $product)
+    {
+        return Product::query()
+            ->where('category_id', $product->category_id)
+            ->where('id', '!=', $product->id)
+            ->limit(4)
+            ->get();
     }
 }

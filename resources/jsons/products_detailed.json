@@ -1,0 +1,1454 @@
+[
+    {
+        "id": 1,
+        "name": "Ryzen 5 5600 v1",
+        "category_id": 1,
+        "specifications": {
+            "model": "Ryzen 5 5600",
+            "performance_level": "Entry",
+            "warranty_years": 5,
+            "power_usage_watts": 224
+        }
+    },
+    {
+        "id": 2,
+        "name": "Ryzen 5 5600 v2",
+        "category_id": 1,
+        "specifications": {
+            "model": "Ryzen 5 5600",
+            "performance_level": "Mid",
+            "warranty_years": 2,
+            "power_usage_watts": 244
+        }
+    },
+    {
+        "id": 3,
+        "name": "Ryzen 5 5600 v3",
+        "category_id": 1,
+        "specifications": {
+            "model": "Ryzen 5 5600",
+            "performance_level": "Entry",
+            "warranty_years": 5,
+            "power_usage_watts": 348
+        }
+    },
+    {
+        "id": 4,
+        "name": "Ryzen 7 5800X v1",
+        "category_id": 1,
+        "specifications": {
+            "model": "Ryzen 7 5800X",
+            "performance_level": "Enthusiast",
+            "warranty_years": 2,
+            "power_usage_watts": 276
+        }
+    },
+    {
+        "id": 5,
+        "name": "Ryzen 7 5800X v2",
+        "category_id": 1,
+        "specifications": {
+            "model": "Ryzen 7 5800X",
+            "performance_level": "Mid",
+            "warranty_years": 2,
+            "power_usage_watts": 342
+        }
+    },
+    {
+        "id": 6,
+        "name": "Ryzen 7 5800X v3",
+        "category_id": 1,
+        "specifications": {
+            "model": "Ryzen 7 5800X",
+            "performance_level": "Enthusiast",
+            "warranty_years": 1,
+            "power_usage_watts": 251
+        }
+    },
+    {
+        "id": 7,
+        "name": "Ryzen 9 5900X v1",
+        "category_id": 1,
+        "specifications": {
+            "model": "Ryzen 9 5900X",
+            "performance_level": "High",
+            "warranty_years": 3,
+            "power_usage_watts": 313
+        }
+    },
+    {
+        "id": 8,
+        "name": "Ryzen 9 5900X v2",
+        "category_id": 1,
+        "specifications": {
+            "model": "Ryzen 9 5900X",
+            "performance_level": "Mid",
+            "warranty_years": 2,
+            "power_usage_watts": 96
+        }
+    },
+    {
+        "id": 9,
+        "name": "Ryzen 9 5900X v3",
+        "category_id": 1,
+        "specifications": {
+            "model": "Ryzen 9 5900X",
+            "performance_level": "Enthusiast",
+            "warranty_years": 3,
+            "power_usage_watts": 282
+        }
+    },
+    {
+        "id": 10,
+        "name": "Core i5-12400F v1",
+        "category_id": 1,
+        "specifications": {
+            "model": "Core i5-12400F",
+            "performance_level": "Entry",
+            "warranty_years": 1,
+            "power_usage_watts": 155
+        }
+    },
+    {
+        "id": 11,
+        "name": "Core i5-12400F v2",
+        "category_id": 1,
+        "specifications": {
+            "model": "Core i5-12400F",
+            "performance_level": "Entry",
+            "warranty_years": 3,
+            "power_usage_watts": 74
+        }
+    },
+    {
+        "id": 12,
+        "name": "Core i5-12400F v3",
+        "category_id": 1,
+        "specifications": {
+            "model": "Core i5-12400F",
+            "performance_level": "Enthusiast",
+            "warranty_years": 5,
+            "power_usage_watts": 123
+        }
+    },
+    {
+        "id": 13,
+        "name": "Core i7-12700K v1",
+        "category_id": 1,
+        "specifications": {
+            "model": "Core i7-12700K",
+            "performance_level": "Mid",
+            "warranty_years": 5,
+            "power_usage_watts": 268
+        }
+    },
+    {
+        "id": 14,
+        "name": "Core i7-12700K v2",
+        "category_id": 1,
+        "specifications": {
+            "model": "Core i7-12700K",
+            "performance_level": "Mid",
+            "warranty_years": 5,
+            "power_usage_watts": 181
+        }
+    },
+    {
+        "id": 15,
+        "name": "Core i7-12700K v3",
+        "category_id": 1,
+        "specifications": {
+            "model": "Core i7-12700K",
+            "performance_level": "Mid",
+            "warranty_years": 2,
+            "power_usage_watts": 201
+        }
+    },
+    {
+        "id": 16,
+        "name": "Core i9-12900K v1",
+        "category_id": 1,
+        "specifications": {
+            "model": "Core i9-12900K",
+            "performance_level": "High",
+            "warranty_years": 3,
+            "power_usage_watts": 164
+        }
+    },
+    {
+        "id": 17,
+        "name": "Core i9-12900K v2",
+        "category_id": 1,
+        "specifications": {
+            "model": "Core i9-12900K",
+            "performance_level": "Mid",
+            "warranty_years": 2,
+            "power_usage_watts": 193
+        }
+    },
+    {
+        "id": 18,
+        "name": "Core i9-12900K v3",
+        "category_id": 1,
+        "specifications": {
+            "model": "Core i9-12900K",
+            "performance_level": "High",
+            "warranty_years": 1,
+            "power_usage_watts": 60
+        }
+    },
+    {
+        "id": 19,
+        "name": "Ryzen 5 7600X v1",
+        "category_id": 1,
+        "specifications": {
+            "model": "Ryzen 5 7600X",
+            "performance_level": "High",
+            "warranty_years": 5,
+            "power_usage_watts": 217
+        }
+    },
+    {
+        "id": 20,
+        "name": "Ryzen 5 7600X v2",
+        "category_id": 1,
+        "specifications": {
+            "model": "Ryzen 5 7600X",
+            "performance_level": "High",
+            "warranty_years": 5,
+            "power_usage_watts": 253
+        }
+    },
+    {
+        "id": 21,
+        "name": "Ryzen 5 7600X v3",
+        "category_id": 1,
+        "specifications": {
+            "model": "Ryzen 5 7600X",
+            "performance_level": "Enthusiast",
+            "warranty_years": 1,
+            "power_usage_watts": 263
+        }
+    },
+    {
+        "id": 22,
+        "name": "Core i5-13600K v1",
+        "category_id": 1,
+        "specifications": {
+            "model": "Core i5-13600K",
+            "performance_level": "High",
+            "warranty_years": 5,
+            "power_usage_watts": 169
+        }
+    },
+    {
+        "id": 23,
+        "name": "Core i5-13600K v2",
+        "category_id": 1,
+        "specifications": {
+            "model": "Core i5-13600K",
+            "performance_level": "Entry",
+            "warranty_years": 1,
+            "power_usage_watts": 319
+        }
+    },
+    {
+        "id": 24,
+        "name": "Core i5-13600K v3",
+        "category_id": 1,
+        "specifications": {
+            "model": "Core i5-13600K",
+            "performance_level": "Entry",
+            "warranty_years": 1,
+            "power_usage_watts": 86
+        }
+    },
+    {
+        "id": 25,
+        "name": "Ryzen 7 7700X v1",
+        "category_id": 1,
+        "specifications": {
+            "model": "Ryzen 7 7700X",
+            "performance_level": "Enthusiast",
+            "warranty_years": 1,
+            "power_usage_watts": 252
+        }
+    },
+    {
+        "id": 26,
+        "name": "Ryzen 7 7700X v2",
+        "category_id": 1,
+        "specifications": {
+            "model": "Ryzen 7 7700X",
+            "performance_level": "High",
+            "warranty_years": 2,
+            "power_usage_watts": 217
+        }
+    },
+    {
+        "id": 27,
+        "name": "Ryzen 7 7700X v3",
+        "category_id": 1,
+        "specifications": {
+            "model": "Ryzen 7 7700X",
+            "performance_level": "Mid",
+            "warranty_years": 5,
+            "power_usage_watts": 311
+        }
+    },
+    {
+        "id": 28,
+        "name": "RTX 3060 v1",
+        "category_id": 4,
+        "specifications": {
+            "model": "RTX 3060",
+            "performance_level": "Mid",
+            "warranty_years": 2,
+            "power_usage_watts": 91
+        }
+    },
+    {
+        "id": 29,
+        "name": "RTX 3060 v2",
+        "category_id": 4,
+        "specifications": {
+            "model": "RTX 3060",
+            "performance_level": "Enthusiast",
+            "warranty_years": 1,
+            "power_usage_watts": 152
+        }
+    },
+    {
+        "id": 30,
+        "name": "RTX 3060 v3",
+        "category_id": 4,
+        "specifications": {
+            "model": "RTX 3060",
+            "performance_level": "High",
+            "warranty_years": 2,
+            "power_usage_watts": 198
+        }
+    },
+    {
+        "id": 31,
+        "name": "RTX 3070 v1",
+        "category_id": 4,
+        "specifications": {
+            "model": "RTX 3070",
+            "performance_level": "Enthusiast",
+            "warranty_years": 5,
+            "power_usage_watts": 79
+        }
+    },
+    {
+        "id": 32,
+        "name": "RTX 3070 v2",
+        "category_id": 4,
+        "specifications": {
+            "model": "RTX 3070",
+            "performance_level": "Mid",
+            "warranty_years": 1,
+            "power_usage_watts": 84
+        }
+    },
+    {
+        "id": 33,
+        "name": "RTX 3070 v3",
+        "category_id": 4,
+        "specifications": {
+            "model": "RTX 3070",
+            "performance_level": "Entry",
+            "warranty_years": 5,
+            "power_usage_watts": 165
+        }
+    },
+    {
+        "id": 34,
+        "name": "RTX 3080 v1",
+        "category_id": 4,
+        "specifications": {
+            "model": "RTX 3080",
+            "performance_level": "Enthusiast",
+            "warranty_years": 5,
+            "power_usage_watts": 348
+        }
+    },
+    {
+        "id": 35,
+        "name": "RTX 3080 v2",
+        "category_id": 4,
+        "specifications": {
+            "model": "RTX 3080",
+            "performance_level": "Mid",
+            "warranty_years": 2,
+            "power_usage_watts": 213
+        }
+    },
+    {
+        "id": 36,
+        "name": "RTX 3080 v3",
+        "category_id": 4,
+        "specifications": {
+            "model": "RTX 3080",
+            "performance_level": "Enthusiast",
+            "warranty_years": 1,
+            "power_usage_watts": 305
+        }
+    },
+    {
+        "id": 37,
+        "name": "RTX 4060 v1",
+        "category_id": 4,
+        "specifications": {
+            "model": "RTX 4060",
+            "performance_level": "Mid",
+            "warranty_years": 2,
+            "power_usage_watts": 53
+        }
+    },
+    {
+        "id": 38,
+        "name": "RTX 4060 v2",
+        "category_id": 4,
+        "specifications": {
+            "model": "RTX 4060",
+            "performance_level": "Entry",
+            "warranty_years": 2,
+            "power_usage_watts": 265
+        }
+    },
+    {
+        "id": 39,
+        "name": "RTX 4060 v3",
+        "category_id": 4,
+        "specifications": {
+            "model": "RTX 4060",
+            "performance_level": "Entry",
+            "warranty_years": 3,
+            "power_usage_watts": 98
+        }
+    },
+    {
+        "id": 40,
+        "name": "RTX 4070 v1",
+        "category_id": 4,
+        "specifications": {
+            "model": "RTX 4070",
+            "performance_level": "Mid",
+            "warranty_years": 1,
+            "power_usage_watts": 316
+        }
+    },
+    {
+        "id": 41,
+        "name": "RTX 4070 v2",
+        "category_id": 4,
+        "specifications": {
+            "model": "RTX 4070",
+            "performance_level": "Entry",
+            "warranty_years": 5,
+            "power_usage_watts": 102
+        }
+    },
+    {
+        "id": 42,
+        "name": "RTX 4070 v3",
+        "category_id": 4,
+        "specifications": {
+            "model": "RTX 4070",
+            "performance_level": "Enthusiast",
+            "warranty_years": 1,
+            "power_usage_watts": 104
+        }
+    },
+    {
+        "id": 43,
+        "name": "RTX 4080 v1",
+        "category_id": 4,
+        "specifications": {
+            "model": "RTX 4080",
+            "performance_level": "Mid",
+            "warranty_years": 3,
+            "power_usage_watts": 206
+        }
+    },
+    {
+        "id": 44,
+        "name": "RTX 4080 v2",
+        "category_id": 4,
+        "specifications": {
+            "model": "RTX 4080",
+            "performance_level": "Mid",
+            "warranty_years": 1,
+            "power_usage_watts": 284
+        }
+    },
+    {
+        "id": 45,
+        "name": "RTX 4080 v3",
+        "category_id": 4,
+        "specifications": {
+            "model": "RTX 4080",
+            "performance_level": "High",
+            "warranty_years": 5,
+            "power_usage_watts": 208
+        }
+    },
+    {
+        "id": 46,
+        "name": "RX 6600 v1",
+        "category_id": 4,
+        "specifications": {
+            "model": "RX 6600",
+            "performance_level": "Entry",
+            "warranty_years": 2,
+            "power_usage_watts": 81
+        }
+    },
+    {
+        "id": 47,
+        "name": "RX 6600 v2",
+        "category_id": 4,
+        "specifications": {
+            "model": "RX 6600",
+            "performance_level": "Entry",
+            "warranty_years": 1,
+            "power_usage_watts": 190
+        }
+    },
+    {
+        "id": 48,
+        "name": "RX 6600 v3",
+        "category_id": 4,
+        "specifications": {
+            "model": "RX 6600",
+            "performance_level": "High",
+            "warranty_years": 3,
+            "power_usage_watts": 78
+        }
+    },
+    {
+        "id": 49,
+        "name": "RX 6700 XT v1",
+        "category_id": 4,
+        "specifications": {
+            "model": "RX 6700 XT",
+            "performance_level": "High",
+            "warranty_years": 5,
+            "power_usage_watts": 209
+        }
+    },
+    {
+        "id": 50,
+        "name": "RX 6700 XT v2",
+        "category_id": 4,
+        "specifications": {
+            "model": "RX 6700 XT",
+            "performance_level": "Enthusiast",
+            "warranty_years": 2,
+            "power_usage_watts": 282
+        }
+    },
+    {
+        "id": 51,
+        "name": "RX 6700 XT v3",
+        "category_id": 4,
+        "specifications": {
+            "model": "RX 6700 XT",
+            "performance_level": "Mid",
+            "warranty_years": 1,
+            "power_usage_watts": 136
+        }
+    },
+    {
+        "id": 52,
+        "name": "RX 6800 XT v1",
+        "category_id": 4,
+        "specifications": {
+            "model": "RX 6800 XT",
+            "performance_level": "High",
+            "warranty_years": 3,
+            "power_usage_watts": 60
+        }
+    },
+    {
+        "id": 53,
+        "name": "RX 6800 XT v2",
+        "category_id": 4,
+        "specifications": {
+            "model": "RX 6800 XT",
+            "performance_level": "Mid",
+            "warranty_years": 1,
+            "power_usage_watts": 220
+        }
+    },
+    {
+        "id": 54,
+        "name": "RX 6800 XT v3",
+        "category_id": 4,
+        "specifications": {
+            "model": "RX 6800 XT",
+            "performance_level": "Entry",
+            "warranty_years": 3,
+            "power_usage_watts": 271
+        }
+    },
+    {
+        "id": 55,
+        "name": "16GB DDR4 3200MHz v1",
+        "category_id": 3,
+        "specifications": {
+            "model": "16GB DDR4 3200MHz",
+            "performance_level": "High",
+            "warranty_years": 1,
+            "power_usage_watts": 137
+        }
+    },
+    {
+        "id": 56,
+        "name": "16GB DDR4 3200MHz v2",
+        "category_id": 3,
+        "specifications": {
+            "model": "16GB DDR4 3200MHz",
+            "performance_level": "Mid",
+            "warranty_years": 1,
+            "power_usage_watts": 179
+        }
+    },
+    {
+        "id": 57,
+        "name": "16GB DDR4 3200MHz v3",
+        "category_id": 3,
+        "specifications": {
+            "model": "16GB DDR4 3200MHz",
+            "performance_level": "Mid",
+            "warranty_years": 2,
+            "power_usage_watts": 272
+        }
+    },
+    {
+        "id": 58,
+        "name": "32GB DDR4 3600MHz v1",
+        "category_id": 3,
+        "specifications": {
+            "model": "32GB DDR4 3600MHz",
+            "performance_level": "Mid",
+            "warranty_years": 1,
+            "power_usage_watts": 101
+        }
+    },
+    {
+        "id": 59,
+        "name": "32GB DDR4 3600MHz v2",
+        "category_id": 3,
+        "specifications": {
+            "model": "32GB DDR4 3600MHz",
+            "performance_level": "High",
+            "warranty_years": 5,
+            "power_usage_watts": 179
+        }
+    },
+    {
+        "id": 60,
+        "name": "32GB DDR4 3600MHz v3",
+        "category_id": 3,
+        "specifications": {
+            "model": "32GB DDR4 3600MHz",
+            "performance_level": "High",
+            "warranty_years": 3,
+            "power_usage_watts": 274
+        }
+    },
+    {
+        "id": 61,
+        "name": "16GB DDR5 5200MHz v1",
+        "category_id": 3,
+        "specifications": {
+            "model": "16GB DDR5 5200MHz",
+            "performance_level": "High",
+            "warranty_years": 2,
+            "power_usage_watts": 273
+        }
+    },
+    {
+        "id": 62,
+        "name": "16GB DDR5 5200MHz v2",
+        "category_id": 3,
+        "specifications": {
+            "model": "16GB DDR5 5200MHz",
+            "performance_level": "Mid",
+            "warranty_years": 5,
+            "power_usage_watts": 204
+        }
+    },
+    {
+        "id": 63,
+        "name": "16GB DDR5 5200MHz v3",
+        "category_id": 3,
+        "specifications": {
+            "model": "16GB DDR5 5200MHz",
+            "performance_level": "Enthusiast",
+            "warranty_years": 3,
+            "power_usage_watts": 49
+        }
+    },
+    {
+        "id": 64,
+        "name": "32GB DDR5 6000MHz v1",
+        "category_id": 3,
+        "specifications": {
+            "model": "32GB DDR5 6000MHz",
+            "performance_level": "Enthusiast",
+            "warranty_years": 3,
+            "power_usage_watts": 156
+        }
+    },
+    {
+        "id": 65,
+        "name": "32GB DDR5 6000MHz v2",
+        "category_id": 3,
+        "specifications": {
+            "model": "32GB DDR5 6000MHz",
+            "performance_level": "Mid",
+            "warranty_years": 2,
+            "power_usage_watts": 162
+        }
+    },
+    {
+        "id": 66,
+        "name": "32GB DDR5 6000MHz v3",
+        "category_id": 3,
+        "specifications": {
+            "model": "32GB DDR5 6000MHz",
+            "performance_level": "High",
+            "warranty_years": 3,
+            "power_usage_watts": 224
+        }
+    },
+    {
+        "id": 67,
+        "name": "500GB NVMe v1",
+        "category_id": 5,
+        "specifications": {
+            "model": "500GB NVMe",
+            "performance_level": "Mid",
+            "warranty_years": 1,
+            "power_usage_watts": 53
+        }
+    },
+    {
+        "id": 68,
+        "name": "500GB NVMe v2",
+        "category_id": 5,
+        "specifications": {
+            "model": "500GB NVMe",
+            "performance_level": "Mid",
+            "warranty_years": 5,
+            "power_usage_watts": 263
+        }
+    },
+    {
+        "id": 69,
+        "name": "500GB NVMe v3",
+        "category_id": 5,
+        "specifications": {
+            "model": "500GB NVMe",
+            "performance_level": "High",
+            "warranty_years": 2,
+            "power_usage_watts": 219
+        }
+    },
+    {
+        "id": 70,
+        "name": "1TB NVMe v1",
+        "category_id": 5,
+        "specifications": {
+            "model": "1TB NVMe",
+            "performance_level": "Entry",
+            "warranty_years": 1,
+            "power_usage_watts": 74
+        }
+    },
+    {
+        "id": 71,
+        "name": "1TB NVMe v2",
+        "category_id": 5,
+        "specifications": {
+            "model": "1TB NVMe",
+            "performance_level": "Entry",
+            "warranty_years": 5,
+            "power_usage_watts": 331
+        }
+    },
+    {
+        "id": 72,
+        "name": "1TB NVMe v3",
+        "category_id": 5,
+        "specifications": {
+            "model": "1TB NVMe",
+            "performance_level": "Entry",
+            "warranty_years": 3,
+            "power_usage_watts": 175
+        }
+    },
+    {
+        "id": 73,
+        "name": "2TB NVMe v1",
+        "category_id": 5,
+        "specifications": {
+            "model": "2TB NVMe",
+            "performance_level": "Enthusiast",
+            "warranty_years": 5,
+            "power_usage_watts": 120
+        }
+    },
+    {
+        "id": 74,
+        "name": "2TB NVMe v2",
+        "category_id": 5,
+        "specifications": {
+            "model": "2TB NVMe",
+            "performance_level": "Mid",
+            "warranty_years": 3,
+            "power_usage_watts": 208
+        }
+    },
+    {
+        "id": 75,
+        "name": "2TB NVMe v3",
+        "category_id": 5,
+        "specifications": {
+            "model": "2TB NVMe",
+            "performance_level": "High",
+            "warranty_years": 3,
+            "power_usage_watts": 227
+        }
+    },
+    {
+        "id": 76,
+        "name": "1TB SATA SSD v1",
+        "category_id": 5,
+        "specifications": {
+            "model": "1TB SATA SSD",
+            "performance_level": "Mid",
+            "warranty_years": 1,
+            "power_usage_watts": 89
+        }
+    },
+    {
+        "id": 77,
+        "name": "1TB SATA SSD v2",
+        "category_id": 5,
+        "specifications": {
+            "model": "1TB SATA SSD",
+            "performance_level": "Mid",
+            "warranty_years": 3,
+            "power_usage_watts": 168
+        }
+    },
+    {
+        "id": 78,
+        "name": "1TB SATA SSD v3",
+        "category_id": 5,
+        "specifications": {
+            "model": "1TB SATA SSD",
+            "performance_level": "Mid",
+            "warranty_years": 5,
+            "power_usage_watts": 53
+        }
+    },
+    {
+        "id": 79,
+        "name": "1TB HDD v1",
+        "category_id": 6,
+        "specifications": {
+            "model": "1TB HDD",
+            "performance_level": "Enthusiast",
+            "warranty_years": 5,
+            "power_usage_watts": 340
+        }
+    },
+    {
+        "id": 80,
+        "name": "1TB HDD v2",
+        "category_id": 6,
+        "specifications": {
+            "model": "1TB HDD",
+            "performance_level": "Mid",
+            "warranty_years": 2,
+            "power_usage_watts": 280
+        }
+    },
+    {
+        "id": 81,
+        "name": "1TB HDD v3",
+        "category_id": 6,
+        "specifications": {
+            "model": "1TB HDD",
+            "performance_level": "High",
+            "warranty_years": 1,
+            "power_usage_watts": 294
+        }
+    },
+    {
+        "id": 82,
+        "name": "2TB HDD v1",
+        "category_id": 6,
+        "specifications": {
+            "model": "2TB HDD",
+            "performance_level": "Mid",
+            "warranty_years": 2,
+            "power_usage_watts": 262
+        }
+    },
+    {
+        "id": 83,
+        "name": "2TB HDD v2",
+        "category_id": 6,
+        "specifications": {
+            "model": "2TB HDD",
+            "performance_level": "Entry",
+            "warranty_years": 2,
+            "power_usage_watts": 338
+        }
+    },
+    {
+        "id": 84,
+        "name": "2TB HDD v3",
+        "category_id": 6,
+        "specifications": {
+            "model": "2TB HDD",
+            "performance_level": "High",
+            "warranty_years": 1,
+            "power_usage_watts": 120
+        }
+    },
+    {
+        "id": 85,
+        "name": "4TB HDD v1",
+        "category_id": 6,
+        "specifications": {
+            "model": "4TB HDD",
+            "performance_level": "High",
+            "warranty_years": 3,
+            "power_usage_watts": 176
+        }
+    },
+    {
+        "id": 86,
+        "name": "4TB HDD v2",
+        "category_id": 6,
+        "specifications": {
+            "model": "4TB HDD",
+            "performance_level": "Mid",
+            "warranty_years": 3,
+            "power_usage_watts": 112
+        }
+    },
+    {
+        "id": 87,
+        "name": "4TB HDD v3",
+        "category_id": 6,
+        "specifications": {
+            "model": "4TB HDD",
+            "performance_level": "High",
+            "warranty_years": 3,
+            "power_usage_watts": 335
+        }
+    },
+    {
+        "id": 88,
+        "name": "650W 80+ Gold v1",
+        "category_id": 7,
+        "specifications": {
+            "model": "650W 80+ Gold",
+            "performance_level": "Entry",
+            "warranty_years": 3,
+            "power_usage_watts": 58
+        }
+    },
+    {
+        "id": 89,
+        "name": "650W 80+ Gold v2",
+        "category_id": 7,
+        "specifications": {
+            "model": "650W 80+ Gold",
+            "performance_level": "High",
+            "warranty_years": 2,
+            "power_usage_watts": 214
+        }
+    },
+    {
+        "id": 90,
+        "name": "650W 80+ Gold v3",
+        "category_id": 7,
+        "specifications": {
+            "model": "650W 80+ Gold",
+            "performance_level": "Entry",
+            "warranty_years": 2,
+            "power_usage_watts": 242
+        }
+    },
+    {
+        "id": 91,
+        "name": "750W 80+ Gold v1",
+        "category_id": 7,
+        "specifications": {
+            "model": "750W 80+ Gold",
+            "performance_level": "Entry",
+            "warranty_years": 1,
+            "power_usage_watts": 166
+        }
+    },
+    {
+        "id": 92,
+        "name": "750W 80+ Gold v2",
+        "category_id": 7,
+        "specifications": {
+            "model": "750W 80+ Gold",
+            "performance_level": "High",
+            "warranty_years": 3,
+            "power_usage_watts": 294
+        }
+    },
+    {
+        "id": 93,
+        "name": "750W 80+ Gold v3",
+        "category_id": 7,
+        "specifications": {
+            "model": "750W 80+ Gold",
+            "performance_level": "Enthusiast",
+            "warranty_years": 5,
+            "power_usage_watts": 223
+        }
+    },
+    {
+        "id": 94,
+        "name": "850W 80+ Platinum v1",
+        "category_id": 7,
+        "specifications": {
+            "model": "850W 80+ Platinum",
+            "performance_level": "High",
+            "warranty_years": 3,
+            "power_usage_watts": 296
+        }
+    },
+    {
+        "id": 95,
+        "name": "850W 80+ Platinum v2",
+        "category_id": 7,
+        "specifications": {
+            "model": "850W 80+ Platinum",
+            "performance_level": "Entry",
+            "warranty_years": 3,
+            "power_usage_watts": 85
+        }
+    },
+    {
+        "id": 96,
+        "name": "850W 80+ Platinum v3",
+        "category_id": 7,
+        "specifications": {
+            "model": "850W 80+ Platinum",
+            "performance_level": "High",
+            "warranty_years": 5,
+            "power_usage_watts": 342
+        }
+    },
+    {
+        "id": 97,
+        "name": "ATX Mid Tower v1",
+        "category_id": 8,
+        "specifications": {
+            "model": "ATX Mid Tower",
+            "performance_level": "Mid",
+            "warranty_years": 5,
+            "power_usage_watts": 149
+        }
+    },
+    {
+        "id": 98,
+        "name": "ATX Mid Tower v2",
+        "category_id": 8,
+        "specifications": {
+            "model": "ATX Mid Tower",
+            "performance_level": "Enthusiast",
+            "warranty_years": 5,
+            "power_usage_watts": 117
+        }
+    },
+    {
+        "id": 99,
+        "name": "ATX Mid Tower v3",
+        "category_id": 8,
+        "specifications": {
+            "model": "ATX Mid Tower",
+            "performance_level": "Entry",
+            "warranty_years": 1,
+            "power_usage_watts": 282
+        }
+    },
+    {
+        "id": 100,
+        "name": "Micro ATX Case v1",
+        "category_id": 8,
+        "specifications": {
+            "model": "Micro ATX Case",
+            "performance_level": "Entry",
+            "warranty_years": 2,
+            "power_usage_watts": 327
+        }
+    },
+    {
+        "id": 101,
+        "name": "Micro ATX Case v2",
+        "category_id": 8,
+        "specifications": {
+            "model": "Micro ATX Case",
+            "performance_level": "High",
+            "warranty_years": 2,
+            "power_usage_watts": 235
+        }
+    },
+    {
+        "id": 102,
+        "name": "Micro ATX Case v3",
+        "category_id": 8,
+        "specifications": {
+            "model": "Micro ATX Case",
+            "performance_level": "Mid",
+            "warranty_years": 5,
+            "power_usage_watts": 182
+        }
+    },
+    {
+        "id": 103,
+        "name": "Full Tower Case v1",
+        "category_id": 8,
+        "specifications": {
+            "model": "Full Tower Case",
+            "performance_level": "Enthusiast",
+            "warranty_years": 2,
+            "power_usage_watts": 304
+        }
+    },
+    {
+        "id": 104,
+        "name": "Full Tower Case v2",
+        "category_id": 8,
+        "specifications": {
+            "model": "Full Tower Case",
+            "performance_level": "Entry",
+            "warranty_years": 5,
+            "power_usage_watts": 191
+        }
+    },
+    {
+        "id": 105,
+        "name": "Full Tower Case v3",
+        "category_id": 8,
+        "specifications": {
+            "model": "Full Tower Case",
+            "performance_level": "Enthusiast",
+            "warranty_years": 2,
+            "power_usage_watts": 344
+        }
+    },
+    {
+        "id": 106,
+        "name": "Air Cooler 120mm v1",
+        "category_id": 9,
+        "specifications": {
+            "model": "Air Cooler 120mm",
+            "performance_level": "High",
+            "warranty_years": 1,
+            "power_usage_watts": 98
+        }
+    },
+    {
+        "id": 107,
+        "name": "Air Cooler 120mm v2",
+        "category_id": 9,
+        "specifications": {
+            "model": "Air Cooler 120mm",
+            "performance_level": "High",
+            "warranty_years": 3,
+            "power_usage_watts": 70
+        }
+    },
+    {
+        "id": 108,
+        "name": "Air Cooler 120mm v3",
+        "category_id": 9,
+        "specifications": {
+            "model": "Air Cooler 120mm",
+            "performance_level": "Enthusiast",
+            "warranty_years": 2,
+            "power_usage_watts": 92
+        }
+    },
+    {
+        "id": 109,
+        "name": "Liquid Cooler 240mm v1",
+        "category_id": 9,
+        "specifications": {
+            "model": "Liquid Cooler 240mm",
+            "performance_level": "Enthusiast",
+            "warranty_years": 3,
+            "power_usage_watts": 47
+        }
+    },
+    {
+        "id": 110,
+        "name": "Liquid Cooler 240mm v2",
+        "category_id": 9,
+        "specifications": {
+            "model": "Liquid Cooler 240mm",
+            "performance_level": "Enthusiast",
+            "warranty_years": 3,
+            "power_usage_watts": 322
+        }
+    },
+    {
+        "id": 111,
+        "name": "Liquid Cooler 240mm v3",
+        "category_id": 9,
+        "specifications": {
+            "model": "Liquid Cooler 240mm",
+            "performance_level": "Enthusiast",
+            "warranty_years": 5,
+            "power_usage_watts": 312
+        }
+    },
+    {
+        "id": 112,
+        "name": "Liquid Cooler 360mm v1",
+        "category_id": 9,
+        "specifications": {
+            "model": "Liquid Cooler 360mm",
+            "performance_level": "High",
+            "warranty_years": 1,
+            "power_usage_watts": 327
+        }
+    },
+    {
+        "id": 113,
+        "name": "Liquid Cooler 360mm v2",
+        "category_id": 9,
+        "specifications": {
+            "model": "Liquid Cooler 360mm",
+            "performance_level": "High",
+            "warranty_years": 5,
+            "power_usage_watts": 115
+        }
+    },
+    {
+        "id": 114,
+        "name": "Liquid Cooler 360mm v3",
+        "category_id": 9,
+        "specifications": {
+            "model": "Liquid Cooler 360mm",
+            "performance_level": "Enthusiast",
+            "warranty_years": 5,
+            "power_usage_watts": 275
+        }
+    },
+    {
+        "id": 115,
+        "name": "24\" IPS 144Hz v1",
+        "category_id": 10,
+        "specifications": {
+            "model": "24\" IPS 144Hz",
+            "performance_level": "High",
+            "warranty_years": 1,
+            "power_usage_watts": 345
+        }
+    },
+    {
+        "id": 116,
+        "name": "24\" IPS 144Hz v2",
+        "category_id": 10,
+        "specifications": {
+            "model": "24\" IPS 144Hz",
+            "performance_level": "Entry",
+            "warranty_years": 2,
+            "power_usage_watts": 133
+        }
+    },
+    {
+        "id": 117,
+        "name": "24\" IPS 144Hz v3",
+        "category_id": 10,
+        "specifications": {
+            "model": "24\" IPS 144Hz",
+            "performance_level": "Entry",
+            "warranty_years": 2,
+            "power_usage_watts": 243
+        }
+    },
+    {
+        "id": 118,
+        "name": "27\" IPS 165Hz v1",
+        "category_id": 10,
+        "specifications": {
+            "model": "27\" IPS 165Hz",
+            "performance_level": "Mid",
+            "warranty_years": 3,
+            "power_usage_watts": 279
+        }
+    },
+    {
+        "id": 119,
+        "name": "27\" IPS 165Hz v2",
+        "category_id": 10,
+        "specifications": {
+            "model": "27\" IPS 165Hz",
+            "performance_level": "Entry",
+            "warranty_years": 1,
+            "power_usage_watts": 85
+        }
+    },
+    {
+        "id": 120,
+        "name": "27\" IPS 165Hz v3",
+        "category_id": 10,
+        "specifications": {
+            "model": "27\" IPS 165Hz",
+            "performance_level": "Entry",
+            "warranty_years": 3,
+            "power_usage_watts": 163
+        }
+    },
+    {
+        "id": 121,
+        "name": "32\" 4K 144Hz v1",
+        "category_id": 10,
+        "specifications": {
+            "model": "32\" 4K 144Hz",
+            "performance_level": "Entry",
+            "warranty_years": 2,
+            "power_usage_watts": 261
+        }
+    },
+    {
+        "id": 122,
+        "name": "32\" 4K 144Hz v2",
+        "category_id": 10,
+        "specifications": {
+            "model": "32\" 4K 144Hz",
+            "performance_level": "Entry",
+            "warranty_years": 1,
+            "power_usage_watts": 253
+        }
+    },
+    {
+        "id": 123,
+        "name": "32\" 4K 144Hz v3",
+        "category_id": 10,
+        "specifications": {
+            "model": "32\" 4K 144Hz",
+            "performance_level": "Entry",
+            "warranty_years": 2,
+            "power_usage_watts": 109
+        }
+    },
+    {
+        "id": 124,
+        "name": "PCIe WiFi Adapter v1",
+        "category_id": 99,
+        "specifications": {
+            "model": "PCIe WiFi Adapter",
+            "performance_level": "High",
+            "warranty_years": 1,
+            "power_usage_watts": 75
+        }
+    },
+    {
+        "id": 125,
+        "name": "PCIe WiFi Adapter v2",
+        "category_id": 99,
+        "specifications": {
+            "model": "PCIe WiFi Adapter",
+            "performance_level": "Mid",
+            "warranty_years": 2,
+            "power_usage_watts": 142
+        }
+    },
+    {
+        "id": 126,
+        "name": "PCIe WiFi Adapter v3",
+        "category_id": 99,
+        "specifications": {
+            "model": "PCIe WiFi Adapter",
+            "performance_level": "Entry",
+            "warranty_years": 3,
+            "power_usage_watts": 129
+        }
+    },
+    {
+        "id": 127,
+        "name": "RGB Controller v1",
+        "category_id": 99,
+        "specifications": {
+            "model": "RGB Controller",
+            "performance_level": "High",
+            "warranty_years": 3,
+            "power_usage_watts": 67
+        }
+    },
+    {
+        "id": 128,
+        "name": "RGB Controller v2",
+        "category_id": 99,
+        "specifications": {
+            "model": "RGB Controller",
+            "performance_level": "Mid",
+            "warranty_years": 1,
+            "power_usage_watts": 234
+        }
+    },
+    {
+        "id": 129,
+        "name": "RGB Controller v3",
+        "category_id": 99,
+        "specifications": {
+            "model": "RGB Controller",
+            "performance_level": "High",
+            "warranty_years": 3,
+            "power_usage_watts": 350
+        }
+    },
+    {
+        "id": 130,
+        "name": "USB-C Hub v1",
+        "category_id": 99,
+        "specifications": {
+            "model": "USB-C Hub",
+            "performance_level": "Entry",
+            "warranty_years": 3,
+            "power_usage_watts": 207
+        }
+    },
+    {
+        "id": 131,
+        "name": "USB-C Hub v2",
+        "category_id": 99,
+        "specifications": {
+            "model": "USB-C Hub",
+            "performance_level": "Mid",
+            "warranty_years": 5,
+            "power_usage_watts": 198
+        }
+    },
+    {
+        "id": 132,
+        "name": "USB-C Hub v3",
+        "category_id": 99,
+        "specifications": {
+            "model": "USB-C Hub",
+            "performance_level": "Enthusiast",
+            "warranty_years": 2,
+            "power_usage_watts": 350
+        }
+    }
+]

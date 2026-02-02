@@ -14,11 +14,17 @@
             <h3 class="font-semibold">Категорії:</h3>
             <div class="flex flex-wrap gap-2">
                 @foreach($categories as $categoryId => $categoryName)
-                    @if($categoryId != 99)
+                    @if($categoryId != 255)
                         <div class="flex items-center gap-1">
                             <input type="checkbox" id="cat-{{$categoryId}}" name="categories[]"
                                    value="{{$categoryId}}" @checked(in_array($categoryId, request('categories', [])))>
                             <label for="cat-{{$categoryId}}" class="text-xs cursor-pointer">{{$categoryName}}</label>
+                        </div>
+                    @else
+                        <div class="flex items-center gap-1">
+                            <input type="checkbox" id="cat-{{$categoryId}}" name="categories[]"
+                                   value="{{$categoryId}}" @checked(in_array($categoryId, request('categories', [])))>
+                            <label for="cat-{{$categoryId}}" class="text-xs cursor-pointer">Інше</label>
                         </div>
                     @endif
                 @endforeach
@@ -29,3 +35,4 @@
             Reset
         </a></form>
 </div>
+

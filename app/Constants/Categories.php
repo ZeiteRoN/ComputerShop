@@ -25,7 +25,7 @@ class Categories
     /*** @var string */
     public const MONITORS = 10;
     /*** @var string */
-    public const OTHER = 99;
+    public const OTHER = 255;
 
     /*** @var array */
     public const ALL = [
@@ -54,6 +54,6 @@ class Categories
         self::BODY => 'Корпуси',
         self::COOLING_SYSTEM => 'Системи охолодження',
         self::MONITORS => 'Монітори',
-        self::OTHER
+        self::OTHER => 'Інше'
     ];
 }
