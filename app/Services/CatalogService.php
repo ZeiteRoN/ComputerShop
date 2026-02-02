@@ -3,14 +3,18 @@
 namespace App\Services;
 
 use App\Models\Product;
+use App\Models\RecentlyViewedProduct;
+use App\Models\User;
 use App\Repositories\ProductRepository;
+use App\Repositories\RecentlyViewedProductRepository;
 use Illuminate\Pagination\LengthAwarePaginator;
 use Illuminate\Support\Collection;
 
 class CatalogService
 {
     public function __construct(
-        private ProductRepository $productRepository
+        private ProductRepository $productRepository,
+        private RecentlyViewedProductRepository $recentlyViewedProductRepository
     ){}
 
     public function getProducts(int $perPage, array $filters):LengthAwarePaginator
@@ -33,5 +37,18 @@ class CatalogService
         return collect($data[$product->id] ?? []);
     }
 
+    public function addProductToRecentlyViewed(Product $product, User $user): RecentlyViewedProduct
+    {
+        return $this->recentlyViewedProductRepository->addProduct($product, $user);
+    }
+
+    public function getRecentlyViewedProducts(?User $user): ?Collection
+    {
+        if (!$user) {
+            return null;
+        }
+
+        return $this->recentlyViewedProductRepository->getRecentlyViewedProducts($user);
+    }
 
 }

@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use App\Models\Product;
 use App\Services\CatalogService;
-use App\Services\CategoryService;
 use App\Constants\Categories;
 use Illuminate\Http\Request;
 
@@ -27,6 +26,7 @@ class ProductController extends Controller
             'products' => $this->catalogService->getProducts(15, $filters),
             'categories' => Categories::WITH_TEXT,
             'filters' => $filters,
+            'recentlyViewedProducts' => $this->catalogService->getRecentlyViewedProducts(auth()->user()),
         ]);
     }
 
@@ -34,6 +34,7 @@ class ProductController extends Controller
     {
         $familiarProducts = $this->catalogService->getFamiliarProductsByCategory($product);
         $productDetails = $this->catalogService->getProductDetails($product);
+        $this->catalogService->addProductToRecentlyViewed($product, auth()->user());
         return view('content.products.show', compact('product', 'familiarProducts', 'productDetails'));
     }
 }
