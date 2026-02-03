@@ -14,9 +14,9 @@
             <div class="flex justify-center mt-2">
                 {{ $products->links() }}
             </div>
-            <h1 class="text-2xl font-bold mt-4">Recently viewed products:</h1>
-            @if($recentlyViewedProducts)
-            <div class="grid grid-cols-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+            @if($recentlyViewedProducts->isNotEmpty())
+                <h1 class="text-2xl font-bold mt-4">Recently viewed products:</h1>
+                 <div class="grid grid-cols-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
                 @foreach($recentlyViewedProducts as $recentlyViewedProduct)
                     @include('components.product-card', ['product' => $recentlyViewedProduct->product])
                 @endforeach
