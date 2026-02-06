@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\CartController;
+use App\Http\Controllers\CheckoutController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
@@ -32,6 +33,12 @@ Route::middleware('auth')->group(function () {
     Route::post('/cart/item/{cartItem}/decrease', [CartController::class, 'decreaseCartItem'])->name('cart.item.decrease');
     Route::post('/cart/item/{cartItem}/remove', [CartController::class, 'removeCartItem'])->name('cart.item.remove');
 });
+
+Route::middleware('auth')->group(function () {
+    Route::get('/checkout', [CheckoutController::class, 'create'])->name('checkout.create');
+    Route::post('/checkout', [CheckoutController::class, 'store'])->name('checkout.store');
+});
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');
