@@ -11,9 +11,17 @@ class CheckoutController extends Controller
         private OrderService $orderService
     ) {}
 
+    public function show()
+    {
+        $orders = $this->orderService->getUserOrders(auth()->user());
+        return view('content.orders.show', compact('orders'));
+    }
+
     public function create()
     {
-        return view('checkout.form');
+        $cart = auth()->user()->cart;
+        $total = $cart->items->sum('price');
+        return view('content.checkout.form', compact('cart', 'total'));
     }
 
     public function store(Request $request)

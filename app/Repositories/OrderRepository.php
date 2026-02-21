@@ -3,7 +3,8 @@
 namespace App\Repositories;
 
 use App\Models\Order;
-use App\Models\OrderItem;
+use App\Models\User;
+use Illuminate\Database\Eloquent\Collection;
 
 class OrderRepository
 {
@@ -12,8 +13,8 @@ class OrderRepository
         return Order::create($data);
     }
 
-    public function createOrderItem(array $data): OrderItem
+    public function getUserOrders(User $user): ?Collection
     {
-        return OrderItem::create($data);
+        return Order::where('user_id', $user->id)->get();
     }
 }

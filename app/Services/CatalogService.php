@@ -45,7 +45,7 @@ class CatalogService
     public function getRecentlyViewedProducts(?User $user): ?Collection
     {
         if (!$user) {
-            return null;
+            return collect();
         }
 
         return $this->recentlyViewedProductRepository->getRecentlyViewedProducts($user);

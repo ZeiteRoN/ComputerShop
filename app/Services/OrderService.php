@@ -2,6 +2,11 @@
 
 namespace App\Services;
 
+use App\Models\Order;
+use App\Models\User;
+use App\Repositories\OrderRepository;
+use DomainException;
+use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Support\Facades\DB;
 
 class OrderService
@@ -15,38 +20,50 @@ class OrderService
     {
         $cart = $this->cartService->getCartWithItems($user);
 
-        if ($cart->items->isEmpty()) {
-            throw new \Exception('Cart is empty');
+        if (!$cart || $cart->items->isEmpty()) {
+            throw new DomainException('Cart is empty');
         }
 
         return DB::transaction(function () use ($user, $cart, $address, $phone) {
 
-            $total = $cart->items->sum(function ($item) {
-                return $item->price * $item->quantity;
-            });
+            $total = 0;
 
-            $order = $this->orderRepository->create([
+            $order = Order::create([
                 'user_id' => $user->id,
                 'delivery_address' => $address,
                 'phone_number' => $phone,
-                'total_price' => $total,
-                'status' => 'pending'
+                'total_price' => 0,
+                'status' => 'pending',
             ]);
 
             foreach ($cart->items as $item) {
-                $this->orderRepository->createOrderItem([
+
+                $price = $item->product->price;
+                $subtotal = $price * $item->quantity;
+
+                $total += $subtotal;
+
+                $order->items()->create([
                     'order_id' => $order->id,
-                    'product_id' => $item->product_id,
-                    'string_product_name' => $item->product_name,
-                    'decimal_price' => $item->price,
-                    'integer_quantity' => $item->quantity,
+                    'product_id' => $item->product->id,
+                    'product_name' => $item->product->name,
+                    'price' => $price,
+                    'quantity' => $item->quantity,
+                    'subtotal' => $subtotal,
                 ]);
             }
+
+            $order->update(['total_price' => $total]);
 
             $cart->items()->delete();
 
             return $order;
         });
+    }
+
+    public function getUserOrders(User $user): ?Collection
+    {
+        return $this->orderRepository->getUserOrders($user);
     }
 }
 

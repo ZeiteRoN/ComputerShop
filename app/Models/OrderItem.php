@@ -14,11 +14,10 @@ class OrderItem extends Model
     protected $fillable = [
         'order_id',
         'product_id',
-        'string_product_name',
-        'decimal_price',
-        'integer_quantity'
+        'quantity',
+        'price',
+        'subtotal',
     ];
-
     public function order(): BelongsTo
     {
         return $this->belongsTo(Order::class);

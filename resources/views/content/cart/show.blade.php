@@ -11,7 +11,7 @@
             <div>
                 <h1>Total: {{$totalPrice}}</h1>
             </div>
-            <form class="flex justify-center" action="">
+            <form class="flex justify-center" action="{{route('checkout.create')}}" type="POST">
                 <button type="submit" class="bg-blue-500 rounded-xl max-w-36 p-2">
                     Оформити
                 </button>
